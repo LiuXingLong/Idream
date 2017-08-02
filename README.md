@@ -1,2 +1,2 @@
-# idreamsky
-创梦天地
+# Idream
+梦天地
