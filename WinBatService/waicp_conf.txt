@@ -1,0 +1,7 @@
+#监控进程配置文件
+#监控进程名     ;  进程pid记录位置文件          ;           重启进程所在位置             ;            重启进程参数
+php.exe ; F:\waicp\status\pid\read_code_pid.log ; E:\phpStudy\php\php-7.0.12-nts\php.exe ; F:\waicp\index.php ReadCode codeTran
+php.exe ; F:\waicp\status\pid\data_push_pid.log ; E:\phpStudy\php\php-7.0.12-nts\php.exe ; F:\waicp\index.php DataPush dataTran
+php.exe ; F:\waicp\status\pid\response_pid.log  ; E:\phpStudy\php\php-7.0.12-nts\php.exe ; F:\waicp\index.php Response responseTran
+php.exe ; F:\waicp\status\pid\file_upload_pid.log  ; E:\phpStudy\php\php-7.0.12-nts\php.exe ; F:\waicp\index.php Submitte fileUploadTran
+php.exe ; F:\waicp\status\pid\account_tran_pid.log  ; E:\phpStudy\php\php-7.0.12-nts\php.exe ; F:\waicp\index.php Submitte accountTran
