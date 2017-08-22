@@ -13,7 +13,12 @@ FOR /F "eol=# tokens=1,2,3* delims=; " %%i in (waicp_conf.txt) do (
 		)											
 	)
 	if !status! == 0 (
-		start %%k %%l
+		start /b %%k %%l
 	)
 )
-pause
+goto sleep
+
+
+:sleep
+ping /n 3 127.1 >nul
+goto start
